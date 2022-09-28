@@ -6,6 +6,7 @@
 :root{
     --arancione-nav:#FF6900;
     --rosso-main:#FF0000;
+    --nero-footer:#1A1A1A;
 }
 
 
@@ -13,6 +14,14 @@ header{
     background-color:var(--arancione-nav);
     position: relative;
     top: 0;
+}
+footer{
+    background-color:var(--nero-footer);
+    color: white;
+    padding: 1rem 0; 
+}
+main{
+    margin-bottom: 2rem;
 }
 
 .container{
@@ -35,7 +44,7 @@ header{
 
 }
 
-.box-nav span a{
+.box-nav span a,footer span a{
     text-decoration: none;
     color: white;
     
@@ -74,6 +83,10 @@ header{
 }
 .txt-strong{
     font-weight: bolder;
+}
+.txt-small{
+    font-size: small;
+    
 }
 
 .box-sconto{
@@ -117,4 +130,24 @@ header{
     display: none;
 }
 
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-dx{
+    text-align: right;
+}
+
+.footer-icon{
+    padding-top: .5rem;
+}
+
+.footer-icon>*{
+    margin-left: .2rem;
+}
+.footer-txt{
+    margin-bottom: .5rem;
+
+}
 
