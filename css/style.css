@@ -3,3 +3,47 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --arancione-nav:#FF6900
+}
+
+
+header{
+    background-color:var(--arancione-nav);
+    position: relative;
+    top: 0;
+}
+
+.container{
+    width: 920px;
+    margin: auto;
+}
+
+.box-nav{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 0;
+    
+}
+
+.nav-text-box{
+    font-family: cursive;
+    padding: .2rem;
+
+}
+
+.box-nav span a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.box-nav img{
+    width: 15%;
+}
+
+.nav-icons-box span >*{
+    padding: .2rem;
+}
