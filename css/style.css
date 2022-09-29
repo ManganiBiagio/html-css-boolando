@@ -22,6 +22,7 @@ header{
 footer{
     background-color:var(--nero-footer);
     color: white;
+    padding: 1rem 0;
     
 }
 main{
