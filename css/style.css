@@ -12,16 +12,21 @@
 
 header{
     background-color:var(--arancione-nav);
-    position: relative;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    
 }
 footer{
     background-color:var(--nero-footer);
     color: white;
-    padding: 1rem 0; 
+    
 }
 main{
     margin-bottom: 2rem;
+    margin-top: 1rem;
 }
 
 .container{
